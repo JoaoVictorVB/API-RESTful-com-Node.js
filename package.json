@@ -1,7 +1,7 @@
 {
   "name": "02-epi-rest-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [ ] O usuário deve poder criar uma nova transação;\r - [ ] O usuário deve poder obter um resumo da sua conta;\r - [ ] O usuário deve poder listar todas transações que já ocorreram;\r - [ ] O usuário deve poder visualizar uma transação única;",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -13,13 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
-    "@types/node": "^20.11.25",
+    "@types/node": "^20.11.28",
     "eslint": "^8.57.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "@fastify/cookie": "^9.3.1",
     "dotenv": "^16.4.5",
     "fastify": "^4.26.2",
     "knex": "^3.1.0",
